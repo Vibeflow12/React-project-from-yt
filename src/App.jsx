@@ -1,6 +1,6 @@
 import './App.css'
 import Accordian from './components/accordian'
-import RandomColor from './components/accordians'
+import RandomColor from './components/randomcolorgen'
 
 
 function App() {
