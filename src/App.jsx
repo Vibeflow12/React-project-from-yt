@@ -2,6 +2,7 @@ import './App.css'
 import Accordian from './components/accordian'
 import RandomColor from './components/randomcolorgen'
 import Star from './components/star'
+import Tree from './components/tree-view'
 import RandomColorGenerator from './pcomponents/randoncolorgenerator'
 
 
@@ -15,7 +16,8 @@ function App() {
       {/* < RandomColor /> */}
 
       {/* <RandomColorGenerator /> */}
-      <Star />
+      {/* <Star /> */}
+      <Tree />
     </>
   )
 }
