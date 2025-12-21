@@ -1,9 +1,9 @@
-export default function MenuItem({ item }) {
-    return (
-        <>
-            <div>
-                menu item
-            </div>
-        </>)
+// export default function MenuItem({ item }) {
+//     return (
+//         <>
+//             <div>
+//                 menu item
+//             </div>
+//         </>)
 
-}
+// }
