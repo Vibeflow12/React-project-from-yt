@@ -2,6 +2,7 @@ import './App.css'
 import Accordian from './components/accordian'
 import ORCodeGenerator from './components/qr-code-generator'
 import RandomColor from './components/randomcolorgen'
+import ScrollIndicator from './components/scroll-indicator'
 import Star from './components/star'
 
 import RandomColorGenerator from './pcomponents/randoncolorgenerator'
@@ -19,7 +20,8 @@ function App() {
       {/* <RandomColorGenerator /> */}
       {/* <Star /> */}
 
-      <ORCodeGenerator />
+      {/* <ORCodeGenerator /> */}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
     </>
   )
 }
