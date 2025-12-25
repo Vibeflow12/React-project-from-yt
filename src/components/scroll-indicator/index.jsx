@@ -79,7 +79,7 @@ export default function ScrollIndicator({ url }) {
 
             <div className="text-center py-8">
                 {data && data.length > 0 ?
-                    data.map(dataItem => <p>{dataItem.title}</p>)
+                    data.map(dataItem => <p key={dataItem.id}>{dataItem.title}</p>)
                     : null
                 }
             </div>
