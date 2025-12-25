@@ -3,6 +3,7 @@ import Accordian from './components/accordian'
 import ORCodeGenerator from './components/qr-code-generator'
 import RandomColor from './components/randomcolorgen'
 import ScrollIndicator from './components/scroll-indicator'
+import ScrollToTopAndBottom from './components/scroll-to-top'
 import Star from './components/star'
 
 import RandomColorGenerator from './pcomponents/randoncolorgenerator'
@@ -21,7 +22,8 @@ function App() {
       {/* <Star /> */}
 
       {/* <ORCodeGenerator /> */}
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
+      <ScrollToTopAndBottom url={'https://dummyjson.com/products?limit=100'} />
     </>
   )
 }
