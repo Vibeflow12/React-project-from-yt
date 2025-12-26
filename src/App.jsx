@@ -1,5 +1,7 @@
 import './App.css'
 import Accordian from './components/accordian'
+import Tabs from './components/custom-tabs/tabs'
+import TabTest from './components/custom-tabs/tabs-test'
 import ORCodeGenerator from './components/qr-code-generator'
 import RandomColor from './components/randomcolorgen'
 import ScrollIndicator from './components/scroll-indicator'
@@ -23,7 +25,8 @@ function App() {
 
       {/* <ORCodeGenerator /> */}
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
-      <ScrollToTopAndBottom url={'https://dummyjson.com/products?limit=100'} />
+      {/* <ScrollToTopAndBottom url={'https://dummyjson.com/products?limit=100'} /> */}
+      <TabTest />
     </>
   )
 }
