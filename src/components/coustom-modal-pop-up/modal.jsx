@@ -20,8 +20,6 @@ export default function Modal({ id, header, body, footer, onClose }) {
                     footer ? footer : <h2>Footer</h2>
                 }
             </div>
-
         </div>
-
     </div>
 }
