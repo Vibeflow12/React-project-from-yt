@@ -3,6 +3,7 @@ import Accordian from './components/accordian'
 import ModalTest from './components/coustom-modal-pop-up/modal-test'
 import Tabs from './components/custom-tabs/tabs'
 import TabTest from './components/custom-tabs/tabs-test'
+import LightDarkMode from './components/light-dark-mode'
 import ORCodeGenerator from './components/qr-code-generator'
 import RandomColor from './components/randomcolorgen'
 import ScrollIndicator from './components/scroll-indicator'
@@ -23,7 +24,8 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <ScrollToTopAndBottom url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabTest /> */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+      <LightDarkMode />
     </>
   )
 }
