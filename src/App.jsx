@@ -10,6 +10,7 @@ import ScrollIndicator from './components/scroll-indicator'
 import ScrollToTopAndBottom from './components/scroll-to-top'
 import Star from './components/star'
 import UseFetchHookTest from './components/use-Fetch/test'
+import UseOnClickOutsideTest from './components/use-outside-click/test'
 
 import RandomColorGenerator from './pcomponents/randoncolorgenerator'
 
@@ -28,7 +29,8 @@ function App() {
       {/* <ModalTest /> */}
       {/* <LightDarkMode /> */}
       {/* <useFetchHookTest /> */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
+      <UseOnClickOutsideTest />
     </>
   )
 }
