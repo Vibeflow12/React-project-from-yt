@@ -9,6 +9,7 @@ import RandomColor from './components/randomcolorgen'
 import ScrollIndicator from './components/scroll-indicator'
 import ScrollToTopAndBottom from './components/scroll-to-top'
 import Star from './components/star'
+import UseFetchHookTest from './components/use-Fetch/test'
 
 import RandomColorGenerator from './pcomponents/randoncolorgenerator'
 
@@ -25,7 +26,9 @@ function App() {
       {/* <ScrollToTopAndBottom url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabTest /> */}
       {/* <ModalTest /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      {/* <useFetchHookTest /> */}
+      <UseFetchHookTest />
     </>
   )
 }
